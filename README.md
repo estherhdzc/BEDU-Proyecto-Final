@@ -10,6 +10,29 @@ El presente proyecto tiene los siguientes objetivos:
 
 ##Análisis: Media de edad por género, porcentaje de género, media de calificaciones: matemáticas, portugués, matemáticas hombres, portugués hombres, matemáticas mujeres, portugués mujeres.
 
+#Importar datos
+d1 <- read.csv(file.choose()) #BD Matemáticas
+print(d1) #Visualización
+
+d2 <- read.csv(file.choose()) #BD Portugés
+print(d2)
+
+d3=merge(d1,d2,by=c("school","sex","age","address","famsize","Pstatus","Medu","Fedu","Mjob","Fjob","reason","nursery","internet"))
+print(nrow(d3)) #Unión BD Matemáticas y Portugés
+
+names(d3) #Encabezado columnas merge d3 
+
+#Limpieza de datos de interes BD Matemáticas
+colmat<- c("school","age","address","famsize","Pstatus","Medu","Fedu","Mjob","Fjob","reason","guardian","traveltime","studytime","failures","schoolsup","famsup","paid","activities","nursery","higher","internet","romantic","famrel","freetime","goout","Dalc","Walc","health","absences")
+dmat <- d1[ , !(names(d1) %in% colmat)]
+head(dmat)
+
+#Limpieza de datos de interes BD Portugés
+colpor<- c("school","age","address","famsize","Pstatus","Medu","Fedu","Mjob","Fjob","reason","guardian","traveltime","studytime","failures","schoolsup","famsup","paid","activities","nursery","higher","internet","romantic","famrel","freetime","goout","Dalc","Walc","health","absences")
+dmat <- d2[ , !(names(d2) %in% colpor)]
+head(dmat)
+
+
 
 ##Prueba de Hipótesis: 
 
