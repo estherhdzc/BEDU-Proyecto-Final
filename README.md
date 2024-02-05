@@ -1,6 +1,9 @@
 # BEDU-Proyecto-Final
-Repositorio para el proyecto final, Módulo Programación con R
+Repositorio para el proyecto final, Módulo Programación y manipulación de datos en R
 
-## Análisis del Desempeño de estudiantes de secundaria por género.
+## Desempeño de estudiantes.
 Dataset proveniente de: [https://archive.ics.uci.edu/dataset/320/student+performance]
 
+## El presente proyecto tiene como objetivo...
+
+##Antecedentes
