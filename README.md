@@ -19,6 +19,16 @@ print(d2)
 
 d3=merge(d1,d2,by=c("school","sex","age","address","famsize","Pstatus","Medu","Fedu","Mjob","Fjob","reason","nursery","internet"))
 print(nrow(d3)) #Unión BD Matemáticas y Portugés
+#Limpieza de datos de interes BD Matemáticas
+
+colmat< -c("school","age","address","famsize","Pstatus","Medu","Fedu","Mjob","Fjob","reason","guardian","traveltime","studytime","failures","schoolsup","famsup","paid","activities","nursery","higher","internet","romantic","famrel","freetime","goout","Dalc","Walc","health","absences")
+dmat <- d1[ , !(names(d1) %in% colmat)]
+head(dmat)
+
+#Limpieza de datos de interes BD Portugés
+colpor<- c("school","age","address","famsize","Pstatus","Medu","Fedu","Mjob","Fjob","reason","guardian","traveltime","studytime","failures","schoolsup","famsup","paid","activities","nursery","higher","internet","romantic","famrel","freetime","goout","Dalc","Walc","health","absences")
+dmat <- d2[ , !(names(d2) %in% colpor)]
+head(dmat)
 
 ##Prueba de Hipótesis: 
 
