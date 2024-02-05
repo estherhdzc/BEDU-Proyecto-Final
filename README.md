@@ -3,7 +3,7 @@ Repositorio para el proyecto final, Módulo Programación y manipulación de dat
 Dataset proveniente de: [https://archive.ics.uci.edu/dataset/320/student+performance]
 
 ## A) El presente proyecto tiene los siguientes objetivos: 
-1. Realizar un análisis estadístico de los datos de estudiantes: edad, género, calificaciones, entre otros.
+1. Realizar un análisis estadístico de los datos de estudiantes: edad, género, calificaciones.
 2. Realizar una prueba de hipótesis de comparación de medias para determinar si existen diferencias significativas entre estudiantes por género y de acuerdo con las pruebas presentadas.
    
 ## B) Antecedentes
