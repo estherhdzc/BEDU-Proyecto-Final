@@ -10,6 +10,16 @@ El presente proyecto tiene los siguientes objetivos:
 
 ##Análisis: Media de edad por género, porcentaje de género, media de calificaciones: matemáticas, portugués, matemáticas hombres, portugués hombres, matemáticas mujeres, portugués mujeres.
 
+#Importar datos
+d1 <- read.csv(file.choose()) #BD Matemáticas
+print(d1) #Visualización
+
+d2 <- read.csv(file.choose()) #BD Portugés
+print(d2)
+
+d3=merge(d1,d2,by=c("school","sex","age","address","famsize","Pstatus","Medu","Fedu","Mjob","Fjob","reason","nursery","internet"))
+print(nrow(d3)) #Unión BD Matemáticas y Portugés
+
 ##Prueba de Hipótesis: 
 
 ##Conclusiones: estadísticos, el resultado de la prueba.
