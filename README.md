@@ -28,7 +28,7 @@ head(dmat)
 #Limpieza de datos de interes BD Portugés
 colpor<- c("school","age","address","famsize","Pstatus","Medu","Fedu","Mjob","Fjob","reason","guardian","traveltime","studytime","failures","schoolsup","famsup","paid","activities","nursery","higher","internet","romantic","famrel","freetime","goout","Dalc","Walc","health","absences")
 dmat <- d2[ , !(names(d2) %in% colpor)]
-head(dmat)
+head(dpor)
 
 ##Prueba de Hipótesis: 
 
