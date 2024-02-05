@@ -1,6 +1,5 @@
 # BEDU-Proyecto: Desempeño de estudiantes.
 Repositorio para el proyecto final, Módulo Programación y manipulación de datos en R
-
 Dataset proveniente de: [https://archive.ics.uci.edu/dataset/320/student+performance]
 
 El presente proyecto tiene los siguientes objetivos: 
@@ -9,8 +8,8 @@ El presente proyecto tiene los siguientes objetivos:
 ##Antecedentes
 
 
-##Análisis
+##Análisis: Media de edad por género, porcentaje de género, media de calificaciones: matemáticas, portugués, matemáticas hombres, portugués hombres, matemáticas mujeres, portugués mujeres.
 
-##Prueba de Hipótesis
+##Prueba de Hipótesis: 
 
-##Conclusiones.
+##Conclusiones: estadísticos, el resultado de la prueba.
