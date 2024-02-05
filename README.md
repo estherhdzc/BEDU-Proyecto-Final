@@ -8,6 +8,7 @@ Dataset proveniente de: [https://archive.ics.uci.edu/dataset/320/student+perform
 2. Realizar una prueba de hipótesis de comparación de medias para determinar si existen diferencias significativas entre estudiantes por género y de acuerdo con las pruebas presentadas.
 ##Antecedentes
 
+
 ##Análisis
 
 ##Prueba de Hipótesis
